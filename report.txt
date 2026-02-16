@@ -1,0 +1,86 @@
+
+==========================================================================================
+                                   COMPREHENSIVE REPORT                                   
+==========================================================================================
+
+
+------------------------------------------------------------------------------------------
+ student Marksheet Details
+------------------------------------------------------------------------------------------
++---------+----------------+------+---------+-----------+---------+
+| ID      | Name           | Math | Physics | Chemistry | Biology |
++---------+----------------+------+---------+-----------+---------+
+| S001    | Alex           | 85   | 90      | 88        | 92      |
+| S002    | Ashok          | 78   | 82      | 75        | 80      |
+| S003    | Nihal          | 92   | 88      | 95        | 90      |
+| S004    | Lanvil         | 70   | 98      | 92        | 95      |
+| S005    | Loyd           | 80   | 98      | 92        | 75      |
+| S006    | Omkar          | 90   | 98      | 92        | 95      |
+| S007    | Vaibhav        | 70   | 68      | 72        | 75      |
++---------+----------------+------+---------+-----------+---------+
+
+ Total number of students: 7
+
+------------------------------------------------------------------------------------------
+ Calculation on Individual student Averages
+------------------------------------------------------------------------------------------
+ 1. Alex's average score : 88.75
+ 2. Ashok's average score : 78.75
+ 3. Nihal's average score : 91.25
+ 4. Lanvil's average score : 88.75
+ 5. Loyd's average score : 86.25
+ 6. Omkar's average score : 93.75
+ 7. Vaibhav's average score : 71.25
+
+------------------------------------------------------------------------------------------
+ Top 3 Performers (Based on Average)
+------------------------------------------------------------------------------------------
+ 1. Omkar : 93.75
+ 2. Nihal : 91.25
+ 3. Alex : 88.75
+
+------------------------------------------------------------------------------------------
+ Calculation on Class Subject Averages
+------------------------------------------------------------------------------------------
+ 1. Class average score on Math: 80.71
+ 2. Class average score on Physics: 88.86
+ 3. Class average score on Chemistry: 86.57
+ 4. Class average score on Biology: 86.00
+
+ Calculation on Total Class Averages
+ Total class average score : 85.54
+
+------------------------------------------------------------------------------------------
+ Highest and Lowest Scores per Subject
+------------------------------------------------------------------------------------------
+ 1. Highest score on Math     : 92
+ 2. Lowest score on Math      : 70
+ 3. Highest score on Physics  : 98
+ 4. Lowest score on Physics   : 68
+ 5. Highest score on Chemistry: 95
+ 6. Lowest score on Chemistry : 72
+ 7. Highest score on Biology  : 95
+ 8. Lowest score on Biology   : 75
+
+------------------------------------------------------------------------------------------
+ students Scoring Above 90
+------------------------------------------------------------------------------------------
+
+ Subject: Math
+  1. Nihal : 92
+
+ Subject: Physics
+  1. Lanvil : 98
+  2. Loyd : 98
+  3. Omkar : 98
+
+ Subject: Chemistry
+  1. Nihal : 95
+  2. Lanvil : 92
+  3. Loyd : 92
+  4. Omkar : 92
+
+ Subject: Biology
+  1. Alex : 92
+  2. Lanvil : 95
+  3. Omkar : 95

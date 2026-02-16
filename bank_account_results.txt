@@ -1,0 +1,50 @@
+ROR!
+Alex deposited $500. New Balance: $500
+Error: Deposit amount must be greater than 0
+Error: Deposit amount must be greater than 0
+Jason deposited $500. New Balance: $500
+Alex withdrew $200. New Balance: $300
+Error: Insufficient Balance
+Error: Insufficient Balance
+Jason withdrew $200. New Balance: $300
+Alex initiating transfer of $300 to Omkar...
+Alex withdrew $300. New Balance: $0
+Omkar deposited $300. New Balance: $300
+Transfer successful.
+Omkar initiating transfer of $300 to Nihal...
+Omkar withdrew $300. New Balance: $0
+ERROR!
+Nihal deposited $300. New Balance: $300
+Transfer successful.
+Nihal initiating transfer of $1000 to Omkar...
+Error: Insufficient Balance
+Transfer failed.
+Jason initiating transfer of $0 to Omkar...
+Error: Withdrawal amount must be greater than 0
+Transfer failed.
+
+Account: A001 | Holder: Alex | Balance: $0
+Transaction History
+{'timestamp': '16-02-2026 16:29:38', 'type': 'Account Created', 'amount': 0, 'balance_after': 0}
+{'timestamp': '16-02-2026 16:29:38', 'type': 'Deposit', 'amount': 500, 'balance_after': 500}
+{'timestamp': '16-02-2026 16:29:38', 'type': 'Withdrawal', 'amount': 200, 'balance_after': 300}
+{'timestamp': '16-02-2026 16:29:38', 'type': 'Transfer Out to A003', 'amount': 300, 'balance_after': 0}
+
+Account: A002 | Holder: Nihal | Balance: $300
+Transaction History
+{'timestamp': '16-02-2026 16:29:38', 'type': 'Account Created', 'amount': 0, 'balance_after': 0}
+{'timestamp': '16-02-2026 16:29:38', 'type': 'Transfer In from A003', 'amount': 300, 'balance_after': 300}
+
+Account: A003 | Holder: Omkar | Balance: $0
+Transaction History
+{'timestamp': '16-02-2026 16:29:38', 'type': 'Account Created', 'amount': 0, 'balance_after': 0}
+{'timestamp': '16-02-2026 16:29:38', 'type': 'Transfer In from A001', 'amount': 300, 'balance_after': 300}
+{'timestamp': '16-02-2026 16:29:38', 'type': 'Transfer Out to A002', 'amount': 300, 'balance_after': 0}
+
+Account: A004 | Holder: Jason | Balance: $300
+Transaction History
+{'timestamp': '16-02-2026 16:29:38', 'type': 'Account Created', 'amount': 0, 'balance_after': 0}
+{'timestamp': '16-02-2026 16:29:38', 'type': 'Deposit', 'amount': 500, 'balance_after': 500}
+{'timestamp': '16-02-2026 16:29:38', 'type': 'Withdrawal', 'amount': 200, 'balance_after': 300}
+
+=== Code Execution Successful ===

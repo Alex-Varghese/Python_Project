@@ -1,0 +1,8 @@
+StudentID,Name,Math,Physics,Chemistry,Biology
+S001,Alex,85,90,88,92
+S002,Ashok,78,82,75,80
+S003,Nihal,92,88,95,90
+S004,Lanvil,70,98,92,95
+S005,Loyd,80,98,92,75
+S006,Omkar,90,98,92,95
+S007,Vaibhav,70,68,72,75
