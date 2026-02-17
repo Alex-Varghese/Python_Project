@@ -44,7 +44,7 @@ class account:
         # Readable account representation
 ```
 
-## Student Grades Analyzer
+## 2. Student Grades Analyzer
 
 A Python script that analyzes a CSV file containing student grades and generates a comprehensive report with statistics and insights.
 
