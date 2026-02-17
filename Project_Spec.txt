@@ -1,0 +1,34 @@
+1.Write a Python class BankAccount that manages a simple bank account with the following features: 
+Requirements:
+•	Initialize with account number, holder name, and initial balance (default 0)
+•	Implement deposit(amount) method that adds money (must be positive)
+•	Implement withdraw(amount) method that removes money (check sufficient balance)
+•	Implement get_balance() method to return current balance
+•	Implement transfer(amount, target_account) to transfer money to another account
+•	Maintain transaction history (list of all transactions with type, amount, and timestamp)
+•	Implement __str__() for readable representation
+
+2.Write a Python script that analyzes a text file containing student grades and generates a comprehensive report. (7 marks)
+Input CSV Format:
+csv
+StudentID,Name,Math,Physics,Chemistry,Biology
+S001,Alice Johnson,85,90,88,92
+S002,Bob Smith,78,82,75,80
+S003,Carol White,92,88,95,90
+S004,David Brown,70,68,72,75
+Requirements:
+•	Read the CSV file
+•	Create a class Student to store each student's information
+•	Calculate individual student averages
+•	Generate a report showing: 
+o	Total number of students
+o	Class average for each subject
+o	Overall class average
+o	Top 3 students by overall average
+o	Students who scored above 90 in any subject
+o	Subject-wise highest and lowest scores
+•	Handle file not found exceptions
+•	Write formatted output to a text file
+
+
+
